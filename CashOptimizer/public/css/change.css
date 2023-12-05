@@ -1,0 +1,39 @@
+
+.container {
+    padding-top: 50px;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.header-brand {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.bills .bill {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bills img {
+    height: 50px; /* ou la taille que vous souhaitez */
+    margin-left: 5px;
+}
