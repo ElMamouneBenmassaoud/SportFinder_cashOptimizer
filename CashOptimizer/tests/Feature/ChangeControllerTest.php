@@ -3,13 +3,11 @@
 namespace Tests\Feature;
 
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithoutMiddleware;
 
 class ChangeControllerTest extends TestCase
 {
     /**
-     * Teste le rendu de monnaie pour le montant de 10 $.
+     * Teste le rendu de monnaie pour le montant de 10 €.
      */
     public function testChangeFor10()
     {
@@ -19,7 +17,7 @@ class ChangeControllerTest extends TestCase
     }
 
     /**
-     * Teste le rendu de monnaie pour le montant de 11 $.
+     * Teste le rendu de monnaie pour le montant de 11 €.
      */
     public function testChangeFor11()
     {
@@ -29,7 +27,7 @@ class ChangeControllerTest extends TestCase
     }
 
     /**
-     * Teste le rendu de monnaie pour le montant de 21 $.
+     * Teste le rendu de monnaie pour le montant de 21 €.
      */
     public function testChangeFor21()
     {
@@ -39,7 +37,7 @@ class ChangeControllerTest extends TestCase
     }
 
     /**
-     * Teste le rendu de monnaie pour le montant de 23 $.
+     * Teste le rendu de monnaie pour le montant de 23 €.
      */
     public function testChangeFor23()
     {
@@ -49,7 +47,7 @@ class ChangeControllerTest extends TestCase
     }
 
     /**
-     * Teste le rendu de monnaie pour le montant de 31 $.
+     * Teste le rendu de monnaie pour le montant de 31 €.
      */
     public function testChangeFor31()
     {
@@ -59,7 +57,7 @@ class ChangeControllerTest extends TestCase
     }
 
     /**
-     * Teste le rendu de monnaie pour le montant de 9007199254740991 $.
+     * Teste le rendu de monnaie pour le montant de 9007199254740991 €.
      */
     public function testChangeFor9007199254740991()
     {
